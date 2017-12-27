@@ -1,0 +1,10 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false  # declare that this is a server, not client
+    fetch-registry: false            # also server need set this to 'false'
+    service-url:
+     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
