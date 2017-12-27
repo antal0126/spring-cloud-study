@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
+        <module name="ribbon" />
         <module name="springcloudstudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="ribbon" target="1.8" />
       <module name="springcloudstudy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
