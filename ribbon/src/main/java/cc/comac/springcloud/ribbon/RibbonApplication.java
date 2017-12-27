@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient     // 注册到Eureka服务器，以便查询已经注册的服务名
 public class RibbonApplication {
 
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class RibbonApplication {
 	}
 
 	@Bean
-	@LoadBalanced
+	@LoadBalanced  // 使用@LoadBalanced 标记这个RestTemplate启用Ribbon的负载均衡
 	RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
