@@ -11,18 +11,24 @@
         <module name="eurekaclient" />
         <module name="eurekaserver" />
         <module name="feign" />
+        <module name="ha-conf-client" />
+        <module name="ha-conf-eureka-server" />
+        <module name="ha-conf-server" />
         <module name="ribbon" />
         <module name="ribbon-with-hystrix" />
-        <module name="springcloudstudy" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configclient" target="1.8" />
       <module name="configserver" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaserver" target="1.8" />
       <module name="feign" target="1.8" />
+      <module name="ha-conf-client" target="1.8" />
+      <module name="ha-conf-eureka-server" target="1.8" />
+      <module name="ha-conf-server" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="ribbon-with-hystrix" target="1.8" />
       <module name="springcloudstudy" target="1.5" />

@@ -6,7 +6,12 @@
 
     <groupId>cc.comac.springcloud</groupId>
     <artifactId>springcloud-study</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ha-configserver</module>
+        <module>haconfigserver</module>
+    </modules>
 
 
 </project>
