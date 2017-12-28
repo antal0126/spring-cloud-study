@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/ribbon-with-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/configclient/pom.xml" />
       </list>
     </option>
   </component>
