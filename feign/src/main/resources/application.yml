@@ -7,3 +7,7 @@ server:
 spring:
   application:
     name: service-feign
+# explicit enable hystrix feature, which is default disabled.
+feign:
+ hystrix:
+  enabled: true
