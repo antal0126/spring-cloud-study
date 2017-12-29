@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/ha-conf-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/ha-conf-server/pom.xml" />
         <option value="$PROJECT_DIR$/ha-conf-client/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-service-miya/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
